@@ -1,0 +1,280 @@
+
+/* Top section */
+
+h1, h2, h3, h4{
+  font-family: 'Fredoka One';
+}
+
+
+
+#top{
+  background-color: white;
+  text-align: center;
+  position : relative;
+
+}
+
+/* Container */
+.container-fluid{
+  padding : 3% 5%;
+}
+
+/* second-section container */
+#second-section .container-fluid{
+  padding: 3% 5% 7%;
+}
+
+/* Navigation bar */
+.navbar {
+  font-family: 'Montserrat';
+  font-weight: 800;
+}
+
+.navbar-brand, .nav-link {
+  color: black;
+  font-size: 1.5rem;
+}
+.nav-link:hover{
+  color: #8bffff;
+}
+.nav-item{
+  padding: 0 2%;
+}
+
+.navbar-toggler:focus{
+  box-shadow : none;
+}
+.toggler-icon:hover{
+  color:#8bffff;
+}
+
+.programmer-icon{
+  position: relative;
+  width: 30%;
+  height: 20%;
+}
+
+.birds-gif{
+  top: 7%;
+  left: 20%;
+  position: absolute;
+  width: 20%;
+  height: 30%;
+}
+
+.chicago-img{
+  position: absolute;
+  height: 40%;
+  width: 60%;
+  left: 20%;
+  bottom: 0;
+
+
+}
+
+/* Typewriter */
+
+.typewriter {
+  font-size: 1.5rem;
+  font-family: 'Fredoka One', cursive;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .12em;
+  animation:
+    typing 4s steps(70, end),
+    blink-caret .7s;
+  animation-iteration-count: infinite;
+}
+
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100%; }
+}
+
+/* Biography info */
+
+.welcome_bio{
+  position: relative;
+  font-size: 1.5rem;
+  text-align: left;
+  padding: 10% 3% 3%;
+}
+
+.biography-text{
+  padding-top: 3%;
+  font-family: 'Ubuntu';
+  font-weight: bold;
+}
+
+
+
+
+
+/* Second section  */
+
+#second-section{
+  position: relative;
+  color: #a7bcb9;
+  text-align: center;
+  background-color: #053742;
+
+}
+
+
+.row{
+  padding: 0 8%;
+}
+
+.pad{
+  padding: 0 10%;
+}
+
+
+.courses-icon{
+  border-radius: 50%;
+  box-shadow : 0 0 5px #8bffff, 0 0 5px #8bffff;
+  width: 90px;
+  height: 90px;
+}
+
+
+.col-headers{
+  padding: 5% 0 3%;
+}
+
+
+.col-lg-4{
+  padding: 0 5%;
+}
+
+.col4-headers{
+  padding-bottom: 10%;
+  color: #8bffff;
+
+}
+
+
+
+a:hover{
+  color: #8bffff;
+}
+
+a{
+  color: #a7bcb9;
+  text-decoration: none;
+  line-height: 2;
+}
+
+
+
+*/
+
+.t_data{
+  color: grey;
+  font-size: 20px;
+  font-family: 'Ubuntu';
+  line-height: 0.7;
+
+}
+
+
+/* Skills section */
+
+.skill-brand{
+  font-size: 4rem;
+  color: #93e4c1;
+}
+.skill-brand:hover{
+  color: #8bffff;
+}
+
+.skills-text{
+  padding: 10% 5%;
+  line-height: 0.5;
+  font-family: 'Ubuntu';
+  color: white;
+  font-weight: bold;
+}
+
+.project-brand{
+  font-size: 3rem;
+  color: #93e4c1;
+}
+.project-brand:hover{
+  color: #8bffff;
+}
+
+
+
+.project-text{
+  padding: 0 5%;
+  font-size: 1.25rem;
+  color: white;
+  font-family: 'Ubuntu';
+}
+
+
+.project-brand:hover{
+  color: #8bffff;
+}
+
+
+/* Footer  */
+
+#footer .row{
+  padding: 5% 20% 3%;
+}
+#footer{
+  background-color: #ececec;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.footer-container{
+  padding: 10% 0;
+}
+
+/* Contact icons   */
+
+.fa-brands{
+
+  font-size: 2.5rem;
+  color: #053742;
+}
+
+.fa-brands:hover{
+  color : #93e4c1;
+}
+
+.form{
+  padding: 0 0 10%;
+}
+
+.mb-3{
+  padding: 5% 0 0;
+}
+
+
+@media (max-width: 990px) {
+  .col-lg-4{
+    padding: 5%;
+  }
+  .birds-gif{
+    display: none;
+  }
+
+  .courses-icon{
+    margin-top: 10%;
+  }
+
+  .biography-text{
+    font-size: 1.2rem;
+  }
+
+  .project-text{
+    font-size: 1rem;
+  }

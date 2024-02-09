@@ -1,0 +1,176 @@
+
+
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3{
+  font-family: 'Montserrat';
+  font-weight: 800;
+}
+
+p{
+  color: grey;
+}
+
+/* containers */
+
+.container-fluid{
+  padding : 7% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section{
+  background-color: white;
+}
+
+/* Headings */
+
+.big-heading{
+  font-size: 3em;
+  line-height:1.5;
+}
+
+.section-heading{
+  font-size: 2.8rem;
+  line-height: 1.5;
+}
+
+/* Navbar */
+
+.navbar{
+  margin-bottom: 5%;
+
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+}
+
+
+/* title */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-image{
+  position: absolute;
+  right: 23%;
+  width: 19%;
+  transform: rotate(25deg);
+}
+
+.download-button{
+  margin: 3% 5% 0 0;
+}
+
+/* features */
+
+#features{
+  position: relative;
+}
+
+.features-box{
+ padding: 3%;
+}
+
+.icon{
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+/* Testimonial section */
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+.testimonials-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+.testimonial-text{
+  font-size: 2.8rem;
+  line-height: 1.5;
+}
+
+/* Press section */
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+.price-text{
+  font-size: 2.8rem;
+  line-height: 1.5;
+}
+
+.dog-text{
+  font-size: 1.5rem;
+}
+
+/* footer section */
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+/* Media statements */
+
+@media (max-width: 990px) {
+
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    padding-top: 5%;
+    position: static;
+    transform: rotate(0);
+    width: 30%;
+  }
+}
