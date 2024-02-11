@@ -260,6 +260,10 @@ a{
 
 
 @media (max-width: 990px) {
+
+  .fa-brands{
+    margin : 25%;
+  }
   .col-lg-4{
     padding: 5%;
   }
