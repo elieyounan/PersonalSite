@@ -170,6 +170,8 @@ a{
 
 
 
+
+
 */
 
 .t_data{
@@ -246,6 +248,10 @@ a{
   color: #053742;
 }
 
+.fa-brands2{
+  font-size:2.5rem;
+}
+
 .fa-brands:hover{
   color : #93e4c1;
 }
@@ -261,7 +267,7 @@ a{
 
 @media (max-width: 990px) {
 
-  
+
   .col-lg-4{
     padding: 5%;
   }
